@@ -1,6 +1,5 @@
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -20,18 +19,21 @@ public class Main {
 				movies.add(reader.nextLine());
 			}
 
-			for (String m : movies) {
-				System.out.println(m);
-			}
+			int index = (int)(Math.random() * movies.size());
+			System.out.println(index);
+			String answer = movies.get(index);
+			System.out.println(answer);
 
-		} catch (FileNotFoundException e) {
-    		System.out.println("ERROR. " + e + "|| File not found");
-		} catch (IOException e) {
-			System.out.println("ERROR. " + e + "|| Can't read file 'movies.txt'");
+			Game game = new Game(answer);
+
+//			for (String m : movies) {
+//				System.out.println(m);
+//			}
+
+
+		}  catch (IOException e) {
+			System.out.println("ERROR. Can't find or read file 'movies.txt'");
 		}
-
-
-
-
     }
+
 }
