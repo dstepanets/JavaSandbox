@@ -27,17 +27,21 @@ public class Game {
 			if (new String(guess).equals(answer))
 				win = true;
 		}
-		if (wrongLetters.length() >= 10)
+		if (wrongLetters.length() >= 10) {
+			printQuestion();
 			System.out.println("YOU LOST :(");
+			System.out.println("Correct answer: " + answer);
+
+		}
 		else {
-			System.out.println("Movie name: " + new String(guess));
+			System.out.println("\nRight guesses: " + new String(guess));
 			System.out.println("\tYOU WON!!! :D");
 		}
 	}
 
 	private void printQuestion() {
-		System.out.println("You have guessed (" + wrongLetters.length() + "/10) wrong letters: " + wrongLetters);
-		System.out.println("Movie name: " + new String(guess));
+		System.out.println("\nYou have guessed (" + wrongLetters.length() + "/10) wrong letters: " + wrongLetters);
+		System.out.println("Right guesses: " + new String(guess));
 	}
 
 	private void getInput() {
@@ -45,7 +49,18 @@ public class Game {
 		Scanner input = new Scanner(System.in);
 
 		System.out.print("Give me a letter: ");
-		char c = input.nextLine().toLowerCase().charAt(0);
+		String s = input.nextLine().toLowerCase();
+		char c;
+		if (!s.isEmpty()) {
+			c = s.charAt(0);
+			if (!Character.isAlphabetic(c) && c != ' ' && c != '\'') {
+				System.out.println("ONLY LETTERS, SPACES, AND APOSTROPHE ARE ALLOWED!");
+				return;
+			}
+		}
+		else
+			return;
+
 		int i = answer.indexOf(c);
 		if (i == -1 && (wrongLetters.indexOf(c) == -1))
 			wrongLetters += c;
