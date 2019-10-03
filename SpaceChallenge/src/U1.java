@@ -11,15 +11,17 @@ public class U1 extends Rocket {
 	@Override
 	public boolean launch() {
 		double crashChance = 0.05 * (cargoCarried / cargoLimit);
-			System.out.println(crashChance);
-		return (crashChance >= Math.random());
+		double ran = Math.random();
+		System.out.println(String.format("%.2f/" + crashChance, ran));
+		return (ran >= crashChance);
 
 	}
 
 	@Override
 	public boolean land() {
 		double crashChance = 0.01 * (cargoCarried / cargoLimit);
-			System.out.println(crashChance);
-		return (crashChance >= Math.random());
+		double ran = Math.random();
+		System.out.println(String.format("%.2f/" + crashChance, ran));
+		return (ran >= crashChance);
 	}
 }
