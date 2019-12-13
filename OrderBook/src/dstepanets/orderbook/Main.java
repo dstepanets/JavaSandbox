@@ -12,10 +12,8 @@ public class Main {
         }
 
         OrderBook orderBook = new OrderBook();
-
-//        Output.logError();
-
-        Input.parseInputFile(inputFilePath);
+        Input input = new Input(orderBook);
+        input.parseInputFile(inputFilePath);
 
         Output.closeFile();
 
