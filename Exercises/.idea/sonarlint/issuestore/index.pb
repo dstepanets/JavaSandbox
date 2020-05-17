@@ -3,3 +3,25 @@ V
 &src/dstepanets/Wix/Clock/Solution.java,5\9\59c05374927e68c525e59eeb4b03b38afa9a5ebe
 V
 &src/dstepanets/wix/clock/Solution.java,f\7\f798534ed03367f1d75476c7ecc3273bee71f4fb
+X
+(src/dstepanets/exs/twosome/Solution.java,5\1\5113a6c4d9d20d52fc7f0b0124e8d9cdabed174e
+Y
+)src/dstepanets/exs/twosome/TwoSumRun.java,4\c\4c85b15b95391f8f09f71bf8c154a916f3033e9a
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+_
+/src/dstepanets/exs/listreverse/ListReverse.java,1\7\17b503e3bed0d45555112dbb753ef91cbc320956
+b
+2src/dstepanets/exs/listreverse/ListReverse_diagram,5\1\512a6d9a5f25388ddc259e554bfd3a4ca843d37e
+a
+1src/dstepanets/hackerrank/lotus/ex1/Solution.java,1\5\15a65bf8f84825c4bb0cb0b8f0538a25e5997918
+a
+1src/dstepanets/hackerrank/lotus/ex2/Solution.java,6\0\60bcfddaa675ede730b7ee9882d333cbbb46ce2d
+`
+0src/dstepanets/hackerrank/lotus/r1/Solution.java,f\5\f58c49c77fe3b240f2eedab6100ae0d92dde49cf
+\
+,src/dstepanets/hackerrank/lotus/r2/input.txt,6\a\6aea8e8b7d0e7180316dc143991cdc456c403c3b
+`
+0src/dstepanets/hackerrank/lotus/r2/Solution.java,e\4\e4857b551ae10e3b7136979fd46aa284b2940e6f
+P
+ src/dstepanets/wix/sms/Main.java,b\8\b881759968ddc9d1c7bd560094bcad3dc47570f8

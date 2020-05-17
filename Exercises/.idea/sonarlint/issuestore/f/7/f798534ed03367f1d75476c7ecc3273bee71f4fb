@@ -1,10 +1,12 @@
 
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÔŸ5
+k	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÀ×¾ÿÿÿÿÿ
+\
+java:S1126"AReplace this if-then-else statement by a single return statement.(«Šž„þÿÿÿÿ
 k	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÀ×¾ÿÿÿÿÿ
 k	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÀ×¾ÿÿÿÿÿ
 k	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÀ×¾ÿÿÿÿÿ
 S	java:S106D"9Replace this use of System.out or System.err by a logger.(ž¯„›üÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆÔŸ5
 M	java:S106K"9Replace this use of System.out or System.err by a logger.(ûå³
-\
-java:S1126"AReplace this if-then-else statement by a single return statement.(«Šž„þÿÿÿÿ
-k	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÀ×¾ÿÿÿÿÿ
+³
+java:S1598"–This file "Solution.java" should be located in "dstepanets\Wix\Clock" directory, not in "D:\CODE\Java\JavaSandbox\Exercises\src\dstepanets\wix\clock".(ˆÔŸ58È¤Ú’¢.
