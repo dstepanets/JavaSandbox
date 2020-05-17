@@ -1,4 +1,4 @@
-package dstepanets.Wix.Clock;
+package dstepanets.wix.clock;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,16 +7,14 @@ class Solution {
 
 	private Integer[] time;
 	private int validTimes = 0;
-	private ArrayList<Integer[]> list = new ArrayList<>();
+	private final ArrayList<Integer[]> list = new ArrayList<>();
 
 	private boolean validateTime() {
 		if (time[0] > 2 || time[2] > 5)
 			return false;
 		if ((time[0] * 10 + time[1]) > 23)
 			return false;
-		if (isInTheList(time))
-			return false;
-		return true;
+		return !isInTheList(time);
 	}
 
 	private boolean isInTheList(Integer[] t) {

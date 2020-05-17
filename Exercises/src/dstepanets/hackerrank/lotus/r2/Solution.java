@@ -1,4 +1,4 @@
-package dstepanets.lotus.r2;
+package dstepanets.hackerrank.lotus.r2;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

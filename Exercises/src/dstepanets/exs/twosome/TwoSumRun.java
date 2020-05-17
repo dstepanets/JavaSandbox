@@ -19,7 +19,7 @@ public class TwoSumRun {
         int target = 6;
 
         Solution solution = new Solution();
-        int sol[] = solution.twoSum(arr, target);
+        int[] sol = solution.twoSum(arr, target);
 
         System.out.println(sol[0] + ", " + sol[1]);
 

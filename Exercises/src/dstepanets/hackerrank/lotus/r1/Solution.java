@@ -1,11 +1,14 @@
-package dstepanets.lotus.r1;
+package dstepanets.hackerrank.lotus.r1;
 
-import java.io.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.stream.IntStream;
 
 class SinglyLinkedListNode {
-	public int data;
+	public final int data;
 	public SinglyLinkedListNode next;
 
 	public SinglyLinkedListNode(int nodeData) {
